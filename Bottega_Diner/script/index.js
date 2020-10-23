@@ -17,6 +17,9 @@ function start() {
   });
 
   const entreeChoice = prompt("Choose an entree!");
+  // loop through the entree list
+  // check if (entreeChoice === current.name)
+  // then do something with that item
 
   response.innerHTML = `${entreeChoice.selectResponse()}`;
 }
