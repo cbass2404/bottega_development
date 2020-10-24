@@ -1,11 +1,6 @@
 class Customer {
   constructor(name) {
     this.name = name;
-    this.billTracker = [];
-  }
-
-  billMaker(food, price) {
-    this.billTracker.push({ key: food, value: price });
   }
 }
 
